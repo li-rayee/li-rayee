@@ -1,33 +1,45 @@
-# Hi 👋 I'm Ruiyu Li（李瑞宇）
+# 李瑞宇 · Li Ruiyu
 
-🎓 深圳大学 · 电子信息工程 | GPA 3.8 / 4.5
-💼 项目管理方向实习生 · 关注 **AI 辅助项目管理**（智能排期 / 风险预测 / 自动化报告）
+<table>
+<tr>
+<td width="34%" vertical-align="top">
+
+<img src="https://github.com/li-rayee.png" width="150" alt="李瑞宇" />
+
+**项目管理方向实习生**
+深圳大学 · 电子信息工程
+
+📧 [liruiyu2023@email.szu.edu.cn](mailto:liruiyu2023@email.szu.edu.cn)
+🔗 [github.com/li-rayee](https://github.com/li-rayee)
+💬 微信：your-wechat-id
 📍 中国 · 深圳
 
----
+</td>
+<td vertical-align="top">
 
-## 🛠️ 我如何用 AI 做项目管理
+## 关于我
 
-- **拆解复杂问题**：用三层框架（采集层 / 逻辑层 / 输出层）把"需求 → 进度 → 周报"拆成可复用流程
-- **人机协同**：AI 生成初稿与风险罗列，我负责判断输出质量、剔除幻觉、决定进正式周报的内容
-- **Agent 编排**：用 WorkBuddy 把"资料收集 → 信息抽取 → 报告生成"编排成多步流程
-- **数据可视化**：进度看板 / 风险清单用看板化方式呈现，成为周会固定议程
+电子信息工程本科（GPA 3.8 / 4.5），聚焦**项目管理**方向，关注 AI 辅助项目管理落地：智能排期、风险预测、自动化报告。
 
-## 📌 项目作品
+工作信条：**AI 负责搬运，人负责判断**——把重复的信息汇总、催办、写周报交给自动化流程，把时间留给协调、判断与决策。
 
-- [PM-AutoTracker](https://github.com/li-rayee/pm-autotracker) — 读取进度表，自动生成周报 + 风险预警（零依赖 Python 脚本）
-- [需求拆解三层框架](https://github.com/li-rayee/pm-autotracker/blob/main/%E9%9C%80%E6%B1%82%E6%8B%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%A1%86%E6%9E%B6.md) — AI 辅助的复杂问题拆解法
-- [高速路变道控制](https://github.com/li-rayee/lane-change-control) — 自动驾驶变道算法：Frenet 轨迹规划 + MPC 跟踪 + 安全性验证（含可运行 Python 复现）
+## 经历
 
-## 🤖 常用 AI 工具
+- **数字化项目实习 · 好易信息** — 需求拆解 · 进度跟踪 · 质量核验 · 数据可视化看板
+- **深圳大学 · 电子信息工程本科** — GPA 3.8 / 4.5 · 《机器人学》：高速路变道控制
 
-`Claude` · `ChatGPT` · `WorkBuddy (Agent 编排)` · `Cursor` · `DeepSeek` · `Perplexity` · `腾讯混元`
+</td>
+</tr>
+</table>
 
-## 📫 联系
+## 项目
 
-- 邮箱：liruiyu2023@email.szu.edu.cn
-- 微信：your-wechat-id
+| 项目 | 一句话说明 |
+|---|---|
+| [PM-AutoTracker](https://github.com/li-rayee/pm-autotracker) | 读进度表 → 自动算逾期/偏差 → 生成周报 + 风险清单，周报 2 小时压到 20 分钟 |
+| [Lane Change Control](https://github.com/li-rayee/lane-change-control) | 高速路变道控制：Frenet 轨迹规划 + 跟踪控制器 + 安全性评估，含可运行 Python 复现 |
+| [需求拆解三层框架](https://github.com/li-rayee/pm-autotracker/blob/main/%E9%9C%80%E6%B1%82%E6%8B%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%A1%86%E6%9E%B6.md) | 采集层 / 逻辑层 / 输出层的人机协同拆解法 |
 
----
+## AI Toolkit
 
-> 💡 这是我的 GitHub 个人主页仓库（用户名同名）。把 `you@example.com` / `your-wechat-id` 换成你自己的信息即可。
+`Claude` · `ChatGPT` · `WorkBuddy（Agent 编排）` · `Cursor` · `DeepSeek` · `Perplexity` · `腾讯混元`
