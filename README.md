@@ -39,6 +39,7 @@
 | [PM-AutoTracker](https://github.com/li-rayee/pm-autotracker) | 读进度表 → 自动算逾期/偏差 → 生成周报 + 风险清单，周报 2 小时压到 20 分钟 |
 | [可见光与LiDAR协同感知](https://github.com/li-rayee/lidar-visible-fusion) | GO2W 四足机器人 ROS2 离线流水线：时间同步 + 多帧累积增密 21 倍 + 三分屏可视化 |
 | [Lane Change Control](https://github.com/li-rayee/lane-change-control) | 高速路变道控制：Frenet 轨迹规划 + 跟踪控制器 + 安全性评估，含可运行 Python 复现 |
+| [Blockchain Research](https://github.com/li-rayee/blockchain-research) | 区块链课程合集：Meme 币代币经济学建模 + 密码学基础（Lamport/Merkle/ secp256k1）+ Solidity 合约 |
 | [需求拆解三层框架](https://github.com/li-rayee/pm-autotracker/blob/main/%E9%9C%80%E6%B1%82%E6%8B%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%A1%86%E6%9E%B6.md) | 采集层 / 逻辑层 / 输出层的人机协同拆解法 |
 
 ## AI Toolkit
