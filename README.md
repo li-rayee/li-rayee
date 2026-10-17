@@ -17,6 +17,7 @@
 
 - [PM-AutoTracker](https://github.com/li-rayee/pm-autotracker) — 读取进度表，自动生成周报 + 风险预警（零依赖 Python 脚本）
 - [需求拆解三层框架](https://github.com/li-rayee/pm-autotracker/blob/main/%E9%9C%80%E6%B1%82%E6%8B%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%A1%86%E6%9E%B6.md) — AI 辅助的复杂问题拆解法
+- [高速路变道控制](https://github.com/li-rayee/lane-change-control) — 自动驾驶变道算法：Frenet 轨迹规划 + MPC 跟踪 + 安全性验证（含可运行 Python 复现）
 
 ## 🤖 常用 AI 工具
 
