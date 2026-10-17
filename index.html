@@ -3,123 +3,171 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>李瑞宇 · 项目管理实习生作品集</title>
+<title>李瑞宇 · 个人主页</title>
 <style>
   :root {
-    --bg: #0f1117;
-    --card: #1a1d27;
-    --accent: #4f8cff;
-    --text: #e6e8ee;
-    --muted: #9aa3b2;
-    --border: #2a2e3a;
+    --bg: #ffffff;
+    --text: #1f2328;
+    --muted: #6a737d;
+    --link: #1a5fb4;
+    --line: #e5e7eb;
+    --accent: #111111;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
   body {
-    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", Segoe UI, sans-serif;
-    background: var(--bg); color: var(--text); line-height: 1.7;
-    padding: 0 20px;
+    font-family: "Times New Roman", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+    background: var(--bg); color: var(--text); line-height: 1.85;
   }
-  .wrap { max-width: 860px; margin: 0 auto; padding: 60px 0; }
-  header { text-align: center; margin-bottom: 48px; }
-  header h1 { font-size: 2.2rem; letter-spacing: 1px; }
-  header p { color: var(--muted); margin-top: 8px; }
-  .badge {
-    display: inline-block; background: #1f2733; color: var(--accent);
-    border: 1px solid var(--border); border-radius: 999px;
-    padding: 4px 14px; font-size: .85rem; margin: 6px 4px;
-  }
-  section { margin-bottom: 40px; }
-  h2 { font-size: 1.3rem; border-left: 4px solid var(--accent); padding-left: 12px; margin-bottom: 16px; }
-  .card {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 14px; padding: 20px; margin-bottom: 16px;
-  }
-  .card h3 { color: var(--accent); margin-bottom: 8px; }
-  .card p, .card li { color: var(--muted); font-size: .95rem; }
-  ul { padding-left: 20px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 12px; }
-  .tool {
-    background: #161a22; border: 1px solid var(--border); border-radius: 10px;
-    padding: 12px 14px; text-align: center; font-size: .9rem;
-  }
-  a { color: var(--accent); text-decoration: none; }
+  a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
-  footer { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 40px; }
+
+  /* 顶部导航 */
+  nav {
+    max-width: 980px; margin: 0 auto; padding: 22px 24px 10px;
+    display: flex; align-items: baseline; gap: 32px; flex-wrap: wrap;
+  }
+  nav .brand { font-weight: 700; font-size: 1.15rem; color: var(--accent); }
+  nav .links { display: flex; gap: 26px; font-size: .95rem; }
+  nav .links a { color: var(--text); }
+  nav .links a:hover { color: var(--link); }
+
+  .layout {
+    max-width: 980px; margin: 0 auto; padding: 36px 24px 72px;
+    display: flex; gap: 56px; align-items: flex-start;
+  }
+  @media (max-width: 760px) { .layout { flex-direction: column; gap: 24px; } }
+
+  /* 左侧栏 */
+  aside { width: 230px; flex-shrink: 0; text-align: left; }
+  @media (max-width: 760px) { aside { width: 100%; text-align: center; } }
+  aside img.avatar {
+    width: 170px; height: 170px; border-radius: 50%;
+    object-fit: cover; display: block; margin: 12px 0 20px;
+    filter: grayscale(8%);
+  }
+  aside h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: .5px; }
+  aside .role { color: var(--muted); font-size: .92rem; margin: 4px 0 18px; }
+  .contact { list-style: none; font-size: .92rem; }
+  .contact li { margin: 7px 0; display: flex; align-items: center; gap: 8px; }
+  .contact svg { width: 14px; height: 14px; fill: var(--muted); flex-shrink: 0; }
+
+  /* 右侧正文 */
+  main { flex: 1; min-width: 0; }
+  section { margin-bottom: 44px; }
+  h2 {
+    font-size: 1.35rem; font-weight: 700; color: var(--accent);
+    padding-bottom: 8px; border-bottom: 1px solid var(--line); margin-bottom: 18px;
+  }
+  section p { margin-bottom: 12px; }
+
+  /* 经历条目：标题 + 右对齐时间 */
+  .item { margin-bottom: 16px; }
+  .item .head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .item .head b { font-weight: 700; }
+  .item .date { color: var(--muted); font-size: .9rem; white-space: nowrap; }
+  .item .sub { color: var(--muted); font-size: .95rem; }
+
+  /* 项目列表 */
+  .proj { margin-bottom: 16px; }
+  .proj .head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .proj .date { color: var(--muted); font-size: .9rem; white-space: nowrap; }
+  .proj p { color: var(--text); font-size: .97rem; margin: 2px 0 0; }
+
+  footer {
+    max-width: 980px; margin: 0 auto; padding: 0 24px 48px;
+    color: var(--muted); font-size: .88rem;
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <h1>李瑞宇 · Ruiyu Li</h1>
-    <p>深圳大学 · 电子信息工程 ｜ 项目管理方向实习生</p>
-    <div>
-      <span class="badge">AI 辅助项目管理</span>
-      <span class="badge">智能排期</span>
-      <span class="badge">风险预测</span>
-      <span class="badge">自动化报告</span>
-    </div>
-  </header>
 
-  <section>
-    <h2>关于我</h2>
-    <div class="card">
-      <p>我是电子工程背景的项目管理实习生，擅长用 AI 工具拆解复杂问题、固化项目流程。
-      相信"AI 负责搬运，人负责判断"——把重复的信息工作自动化，把时间留给协调与决策。</p>
-    </div>
-  </section>
+<nav>
+  <span class="brand">李瑞宇 · 个人主页</span>
+  <div class="links">
+    <a href="#about">关于</a>
+    <a href="#exp">经历</a>
+    <a href="#proj">项目</a>
+    <a href="#tools">工具</a>
+    <a href="#contact">联系</a>
+  </div>
+</nav>
 
-  <section>
-    <h2>AI 工具栈</h2>
-    <div class="grid">
-      <div class="tool">Claude</div>
-      <div class="tool">ChatGPT</div>
-      <div class="tool">WorkBuddy（Agent 编排）</div>
-      <div class="tool">Cursor</div>
-      <div class="tool">DeepSeek</div>
-      <div class="tool">Perplexity</div>
-      <div class="tool">腾讯混元</div>
-    </div>
-  </section>
+<div class="layout">
 
-  <section>
-    <h2>核心项目</h2>
-    <div class="card">
-      <h3>PM-AutoTracker · 进度自动化汇总</h3>
-      <p>读取进度表 → 自动算逾期 / 进度偏差 → 生成 Markdown 周报 + 风险清单。零依赖 Python 脚本，把每周 2 小时周报压到 20 分钟。</p>
-      <p><a href="https://github.com/li-rayee/pm-autotracker">查看仓库 →</a></p>
-    </div>
-    <div class="card">
-      <h3>需求拆解三层框架</h3>
-      <p>采集层 / 逻辑层 / 输出层的人机协同方法论，把"经验判断"固化为可复用的项目规则。</p>
-      <p><a href="https://github.com/li-rayee/pm-autotracker/blob/main/%E9%9C%80%E6%B1%82%E6%8B%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%A1%86%E6%9E%B6.md">阅读方法论 →</a></p>
-    </div>
-    <div class="card">
-      <h3>高速路变道控制 · 自动驾驶算法</h3>
-      <p>深大《机器人学》课程项目：Frenet 坐标系五次多项式轨迹规划 + MPC 路径跟踪 + 自行车模型动力学 + 安全性指标评估，覆盖 15 个高速场景。仓库内含可运行的 Python 复现版（Frenet 轨迹 / 控制器 / 指标评估）。</p>
-      <p><a href="https://github.com/li-rayee/lane-change-control">查看仓库 →</a></p>
-    </div>
-  </section>
+  <aside>
+    <img class="avatar" src="https://github.com/li-rayee.png" alt="李瑞宇" />
+    <h1>李瑞宇 · Li Ruiyu</h1>
+    <div class="role">项目管理方向实习生<br />深圳大学 · 电子信息工程</div>
+    <ul class="contact">
+      <li>
+        <svg viewBox="0 0 16 16"><path d="M1.5 3h13A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5v-7A1.5 1.5 0 0 1 1.5 3Zm.3 1.6L8 8.9l6.2-4.3H1.8ZM14.5 11.5v-6L8 9.8 1.5 5.5v6h13Z"/></svg>
+        <a href="mailto:liruiyu2023@email.szu.edu.cn">liruiyu2023@email.szu.edu.cn</a>
+      </li>
+      <li>
+        <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        <a href="https://github.com/li-rayee">github.com/li-rayee</a>
+      </li>
+      <li>
+        <svg viewBox="0 0 16 16"><path d="M8 1C4.13 1 1 3.69 1 7c0 1.89 1.08 3.56 2.78 4.62-.1.79-.44 1.5-1 2.06a.4.4 0 0 0 .29.68c1.16-.05 2.2-.47 3.01-1.1.61.13 1.25.2 1.92.2 3.87 0 7-2.69 7-6S11.87 1 8 1Z"/></svg>
+        <span>微信：your-wechat-id</span>
+      </li>
+      <li>
+        <svg viewBox="0 0 16 16"><path d="M8 0a5 5 0 0 0-5 5c0 3.75 5 11 5 11s5-7.25 5-11a5 5 0 0 0-5-5Zm0 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"/></svg>
+        <span>中国 · 深圳</span>
+      </li>
+    </ul>
+  </aside>
 
-  <section>
-    <h2>人机协同工作法</h2>
-    <div class="card">
-      <ul>
-        <li>AI 生成初稿、罗列异常项</li>
-        <li>我负责判断输出质量：核对数据一致性、剔除幻觉</li>
-        <li>把"人审 AI"做成流程里的固定校验环节</li>
-      </ul>
-    </div>
-  </section>
+  <main>
 
-  <section>
-    <h2>联系</h2>
-    <div class="card">
-      <p>邮箱：liruiyu2023@email.szu.edu.cn ｜ 微信：your-wechat-id</p>
-      <p>GitHub：<a href="https://github.com/li-rayee">github.com/li-rayee</a></p>
-    </div>
-  </section>
+    <section id="about">
+      <h2>About me</h2>
+      <p>我是深圳大学电子信息工程本科生（GPA 3.8 / 4.5），目前聚焦<strong>项目管理</strong>方向，关注 AI 辅助项目管理的落地：智能排期、风险预测、自动化报告。</p>
+      <p>我的工作信条很简单：<strong>AI 负责搬运，人负责判断</strong>——把重复的信息汇总、催办、写周报交给自动化流程，把人的时间留给协调、判断与决策。</p>
+    </section>
 
-  <footer>© 2026 李瑞宇 · 本页可由 GitHub Pages 免费托管</footer>
+    <section id="exp">
+      <h2>Experiences</h2>
+      <div class="item">
+        <div class="head"><b>数字化项目实习 · 好易信息</b><span class="date">请补充起止时间</span></div>
+        <div class="sub">需求调研与拆解 · 项目进度跟踪 · 质量核验 · 数据可视化看板 · 企业调研</div>
+      </div>
+      <div class="item">
+        <div class="head"><b>深圳大学 · 电子信息工程 本科</b><span class="date">2023 – 2027</span></div>
+        <div class="sub">GPA 3.8 / 4.5 · 《机器人学》课程项目：高速路变道控制算法</div>
+      </div>
+    </section>
+
+    <section id="proj">
+      <h2>Projects</h2>
+      <div class="proj">
+        <div class="head"><b><a href="https://github.com/li-rayee/pm-autotracker">PM-AutoTracker</a></b><span class="date">项目管理 × 自动化</span></div>
+        <p>读取进度表 → 自动计算逾期与进度偏差 → 生成 Markdown 周报 + 风险清单。零依赖 Python，周报制作从 2 小时压缩到 20 分钟。</p>
+      </div>
+      <div class="proj">
+        <div class="head"><b><a href="https://github.com/li-rayee/lane-change-control">Lane Change Control</a></b><span class="date">自动驾驶算法</span></div>
+        <p>高速路变道控制：Frenet 坐标系五次多项式轨迹规划 + 路径跟踪控制器 + 安全性指标评估。仓库含可运行的 Python 复现版。</p>
+      </div>
+      <div class="proj">
+        <div class="head"><b><a href="https://github.com/li-rayee/pm-autotracker/blob/main/%E9%9C%80%E6%B1%82%E6%8B%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%A1%86%E6%9E%B6.md">需求拆解三层框架</a></b><span class="date">方法论</span></div>
+        <p>采集层 / 逻辑层 / 输出层的人机协同拆解法，把"经验判断"固化为可复用的项目规则。</p>
+      </div>
+    </section>
+
+    <section id="tools">
+      <h2>AI Toolkit</h2>
+      <p><code>Claude</code> · <code>ChatGPT</code> · <code>WorkBuddy（Agent 编排）</code> · <code>Cursor</code> · <code>DeepSeek</code> · <code>Perplexity</code> · <code>腾讯混元</code></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>邮箱：<a href="mailto:liruiyu2023@email.szu.edu.cn">liruiyu2023@email.szu.edu.cn</a> ｜ GitHub：<a href="https://github.com/li-rayee">li-rayee</a></p>
+    </section>
+
+  </main>
 </div>
+
+<footer>© 2026 李瑞宇 · 简约，直截了当。</footer>
 </body>
 </html>
