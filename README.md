@@ -1,4 +1,4 @@
-# 李瑞宇 · Li Ruiyu
+# Li Ruiyu
 
 <table>
 <tr>
@@ -6,43 +6,59 @@
 
 <img src="https://github.com/li-rayee.png" width="150" alt="李瑞宇" />
 
-**项目管理方向实习生**
-深圳大学 · 电子信息工程
+**Project Management**
+<br>
+Shenzhen University
+<br>
+Electronic Information Engineering
+<br>
+2023-2027
 
 📧 [liruiyu2023@email.szu.edu.cn](mailto:liruiyu2023@email.szu.edu.cn)
+<br>
 🔗 [github.com/li-rayee](https://github.com/li-rayee)
-💬 微信：your-wechat-id
-📍 中国 · 深圳
+
 
 </td>
 <td vertical-align="top">
 
-## 关于我
+## About me
 
-电子信息工程本科（GPA 3.8 / 4.5），聚焦**项目管理**方向，关注 AI 辅助项目管理落地：智能排期、风险预测、自动化报告。
+聚焦**软硬件项目管理**方向，兼具**交付型、研发型项目管理**经验；
+<br>
+关注 AI 辅助项目管理落地；
+<br>
+智能排期、风险预测、自动化报告；
 
-工作信条：**AI 负责搬运，人负责判断**——把重复的信息汇总、催办、写周报交给自动化流程，把时间留给协调、判断与决策。
+“**AI 负责搬运，人负责判断**——把重复的信息汇总、催办、写周报交给自动化流程，把时间留给协调、判断与决策”
 
-## 经历
+## Exprience
 
-- **数字化项目实习 · 好易信息** — 需求拆解 · 进度跟踪 · 质量核验 · 数据可视化看板
-- **深圳大学 · 电子信息工程本科** — GPA 3.8 / 4.5 · 《机器人学》：高速路变道控制
-
+- **[Daimon Robotics(2026)](https://www.dmrobot.com/)** — 硬件研发型项目管理
+- **Haoyi Information Technology(2026)** — 软件交付型项目管理
 </td>
 </tr>
 </table>
 
-## 项目
+## Projects
 
-| 项目 | 一句话说明 |
+| Project | Key Words |
 |---|---|
-| [PM-AutoTracker](https://github.com/li-rayee/pm-autotracker) | 读进度表 → 自动算逾期/偏差 → 生成周报 + 风险清单，周报 2 小时压到 20 分钟 |
-| [可见光与LiDAR协同感知](https://github.com/li-rayee/lidar-visible-fusion) | GO2W 四足机器人 ROS2 离线流水线：时间同步 + 多帧累积增密 21 倍 + 三分屏可视化 |
-| [Lane Change Control](https://github.com/li-rayee/lane-change-control) | 高速路变道控制：Frenet 轨迹规划 + 跟踪控制器 + 安全性评估，含可运行 Python 复现 |
-| [Blockchain Research](https://github.com/li-rayee/blockchain-research) | 区块链课程合集：Meme 币代币经济学建模 + 密码学基础（Lamport/Merkle/ secp256k1）+ Solidity 合约 |
-| [需求拆解三层框架](https://github.com/li-rayee/pm-autotracker/blob/main/%E9%9C%80%E6%B1%82%E6%8B%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%A1%86%E6%9E%B6.md) | 采集层 / 逻辑层 / 输出层的人机协同拆解法 |
-| [Jira PM Agent](https://github.com/li-rayee/jira-pm-agent) | 基于 WorkBuddy 智能体编排的 Jira 风险监控：规则引擎前置 + 大模型后置归因，已接入真实 Jira Cloud 验证 |
+| [jira-pm-agent(2026)](https://github.com/li-rayee/jira-pm-agent) | WorkBuddy + Jira 风险监控 |
+| [pm-autotracker(2026)](https://github.com/li-rayee/pm-autotracker) | 生成周报 + 风险清单 |
+| [lidar-visible-fusion(2026)](https://github.com/li-rayee/lidar-visible-fusion) | GO2W 四足机器人 ROS2 离线流水线 |
+| [lane-change-control(2025)](https://github.com/li-rayee/lane-change-control) | Frenet 轨迹规划 + 跟踪控制器 + 安全性评估 |
+| [blockchain-research(2025)](https://github.com/li-rayee/blockchain-research) | Meme 币代币经济学建模 + 密码学  + Solidity 合约 |
+
 
 ## AI Toolkit
 
-`Claude` · `ChatGPT` · `WorkBuddy（Agent 编排）` · `Cursor` · `DeepSeek` · `Perplexity` · `腾讯混元`
+需求拆解与优先级：`DeepSeek-V4` · `ChatGPT-5.5`
+<br>
+智能排期与资源部署：`Workbuddy` · `Codex`
+<br>
+进度追踪与风险预警：`Jira REST API`
+<br>
+自动化报告与复盘：`Coze` · `Dify` 
+<br>
+知识与决策沉淀：`Notion AI` · `Lark Minutes (Feishu)` 
