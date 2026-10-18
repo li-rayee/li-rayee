@@ -41,6 +41,7 @@
 | [Lane Change Control](https://github.com/li-rayee/lane-change-control) | 高速路变道控制：Frenet 轨迹规划 + 跟踪控制器 + 安全性评估，含可运行 Python 复现 |
 | [Blockchain Research](https://github.com/li-rayee/blockchain-research) | 区块链课程合集：Meme 币代币经济学建模 + 密码学基础（Lamport/Merkle/ secp256k1）+ Solidity 合约 |
 | [需求拆解三层框架](https://github.com/li-rayee/pm-autotracker/blob/main/%E9%9C%80%E6%B1%82%E6%8B%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%A1%86%E6%9E%B6.md) | 采集层 / 逻辑层 / 输出层的人机协同拆解法 |
+| [Jira PM Agent](https://github.com/li-rayee/jira-pm-agent) | 基于 WorkBuddy 智能体编排的 Jira 风险监控：规则引擎前置 + 大模型后置归因，已接入真实 Jira Cloud 验证 |
 
 ## AI Toolkit
 
